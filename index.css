@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+input,
+button {
+  cursor: pointer;
+}
+
+.container {
+  max-width: 400px;
+  width: 100%;
+  margin: 10vh auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.preview-image {
+  border: 1px solid black;
+  width: 400px;
+  aspect-ratio: 1 / 1;
+  /* background-image: url('car-images/car-1.jpg'); */
+  background-size: cover;
+  background-position: 50% 70%;
+}
+
+.image-caption {
+  margin: 0;
+}
+
+textarea {
+  padding: 0.5em;
+  font-family: inherit;
+  font-size: 1.5rem;
+}
+
+button {
+  font-size: 1.5rem;
+}
